@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f7fc;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #4A90E2;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+form {
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4A90E2;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fafafa;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input:focus, textarea:focus {
+    border-color: #4A90E2;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Resume Display Section */
+#resume-display {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#resume-display[contenteditable="true"]:empty:before {
+    content: "Your generated resume will appear here...";
+    color: #aaa;
+}
+
+/* Shareable Link and Download Section */
+#shareable-link-container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#shareable-link-container p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#shareable-link {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#download-pdf {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#download-pdf:hover {
+    background-color: #e67e22;
+}
+
